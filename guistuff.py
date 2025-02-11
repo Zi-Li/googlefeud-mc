@@ -7,9 +7,9 @@ from os.path import isfile, join, dirname
 
 QUESTION_PATH = join(dirname(__file__),"questions")
 
-XMARGIN = 40
-YMARGIN = 30
-CELL_WIDTH = 22
+XMARGIN = 5
+YMARGIN = 5
+CELL_WIDTH = 14
 QUESTION_FILES = [join(QUESTION_PATH, f) for f in listdir(QUESTION_PATH) if isfile(join(QUESTION_PATH, f))]
 
 # COLOUR_DESAT = {
