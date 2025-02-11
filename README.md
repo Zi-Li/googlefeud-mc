@@ -23,3 +23,7 @@ used hard-coded numbers instead of scaling to screen.
 I kept these values towards the top of guistudd.py (XMARGIN, YMARGIN, CELL_WIDTH).
 
 Requirements:
+All requirements should be included in most Python distributions.
+Notably I used Tkinter for the GUI, 
+random to shuffle the tiles, and 
+functools' partial to help with making the callbacks for buttons.
